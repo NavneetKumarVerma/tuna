@@ -1,2 +1,2 @@
-this is my girst text file.
+This is my girst text file.
 
