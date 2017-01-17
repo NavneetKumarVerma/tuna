@@ -6,5 +6,9 @@ guava
 papaya
 lemon
 litchi
+<<<<<<< HEAD
 new file
 
+=======
+chiku
+>>>>>>> master
