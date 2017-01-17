@@ -2,4 +2,8 @@ This is my second text file in new branch.
 apple
 orange
 mango
+<<<<<<< HEAD
 banana
+=======
+banana1
+>>>>>>> commit after reset
