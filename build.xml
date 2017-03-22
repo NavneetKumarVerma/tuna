@@ -115,6 +115,7 @@
     </target>
 	
     <target name="rep"	>
-	 <replace propertyFile="build.properties"  file="first.txt" token="santra" value="jbl"/>
+	 <replace  file="first.txt" token="santra" value="jbl"/>
+	 <replace/>   
     </target>	
 </project>
