@@ -115,7 +115,6 @@
     </target>
 	
     <target name="rep"	>
-	 <replace  file="first.txt" token="santra" value="jbl"/>
-	 <replace/>   
+	 <replace  file="first.txt" token="second" value="jbl"/> 
     </target>	
 </project>
