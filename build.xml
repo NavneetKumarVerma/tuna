@@ -114,8 +114,6 @@
       <sf:describeMetadata username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}"/>
     </target>
 	
-    <target name="rep"	>
-	 <sf:replace  file="first.txt" token="second" value="jbl"/> 
-    </target>	
+    	
 	
 </project>
