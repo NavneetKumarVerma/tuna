@@ -115,6 +115,6 @@
     </target>
 	
     <target name="rep"	>
-	 <replace file="first.txt" token="santra" value="jbl"/>
+	 <sf:replace username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" file="first.txt" token="santra" value="jbl"/>
     </target>	
 </project>
