@@ -115,6 +115,6 @@
     </target>
 	
     <target name="rep"	>
-	 <replace username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" file="first.txt" token="santra" value="jbl"/>
+	 <replace propertyFile="build.properties" username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" file="first.txt" token="santra" value="jbl"/>
     </target>	
 </project>
